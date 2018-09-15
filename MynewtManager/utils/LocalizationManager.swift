@@ -1,10 +1,3 @@
-//
-//  LocalizationManager.swift
-//  Bluefruit Connect
-//
-//  Created by Antonio García on 19/11/15.
-//  Copyright © 2015 Adafruit. All rights reserved.
-//
 
 import Foundation
 

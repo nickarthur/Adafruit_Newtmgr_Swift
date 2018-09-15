@@ -1,15 +1,8 @@
-//
-//  Preferences.swift
-//  Bluefruit Connect
-//
-//  Created by Antonio García on 29/09/15.
-//  Copyright © 2015 Adafruit. All rights reserved.
-//
 
 import Foundation
 
 #if os(OSX)
-    import AppKit
+    import AppKit 
 #else       // iOS, tvOS
     import UIKit
 #endif

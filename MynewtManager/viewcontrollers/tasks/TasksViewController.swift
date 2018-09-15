@@ -1,10 +1,4 @@
-//
-//  TaksViewController.swift
-//  MynewtManager
-//
-//  Created by Antonio García on 14/10/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
+
 
 import UIKit
 import MSWeakTimer
@@ -113,17 +107,46 @@ class TaksViewController: MynewtViewController {
             guard let context = self else {
                 return
             }
+//MARK: - BEGIN NANDEBUG
+//            if error != nil {
+//                DLog("Error TasksStats: \(error!)")
+//                context.taskStats = nil
+//
+//                DispatchQueue.main.async {
+//                    showErrorAlert(from: context, title: "Error", message: "Error retrieving tasks stats")
+//                }
+//            }
+//MARK: - END NANDEBUG
             
-            if error != nil {
-                DLog("Error TasksStats: \(error!)")
-                context.taskStats = nil
-                
-                DispatchQueue.main.async {
-                    showErrorAlert(from: context, title: "Error", message: "Error retrieving tasks stats")
-                }
-            }
-            
-            if let taskStats = taskStats as? [NewtHandler.TaskStats] {
+            //MARK: - BEGIN NANDEBUG
+            //if let taskStats = taskStats as? [NewtHandler.TaskStats] {
+            if let taskStats =  [
+                NewtHandler.TaskStats (
+                    taskId: 777,
+                    name: "NICK STAT",
+                    priority: 1,
+                    state: 1,
+                    runTime: 5000,
+                    contextSwichCount: 3,
+                    stackSize: 10,
+                    stackUsed: 5,
+                    lastSanityCheckin: 1000,
+                    nextSanityCheckin: 1000
+                ),
+                 NewtHandler.TaskStats (
+                    taskId: 737,
+                    name: "NICK STAT2",
+                    priority: 1,
+                    state: 1,
+                    runTime: 5000,
+                    contextSwichCount: 3,
+                    stackSize: 10,
+                    stackUsed: 5,
+                    lastSanityCheckin: 1000,
+                    nextSanityCheckin: 1000
+                )] as [NewtHandler.TaskStats]?
+            {
+            //MARK: - END NANDEBUG
                 context.setTaskStats(taskStats)
             }
             

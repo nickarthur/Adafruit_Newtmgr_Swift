@@ -1,10 +1,4 @@
-//
-//  RssiUI.swift
-//  Bluefruit Connect
-//
-//  Created by Antonio García on 14/10/15.
-//  Copyright © 2015 Adafruit. All rights reserved.
-//
+
 
 
 #if os(OSX)

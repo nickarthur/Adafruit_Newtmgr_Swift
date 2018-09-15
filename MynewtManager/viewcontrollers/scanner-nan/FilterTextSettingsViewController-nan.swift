@@ -1,4 +1,10 @@
-
+//
+//  FilterTextSettingsViewController.swift
+//  Bluefruit Connect
+//
+//  Created by Antonio García on 29/09/2016.
+//  Copyright © 2016 Adafruit. All rights reserved.
+//
 
 import UIKit
 

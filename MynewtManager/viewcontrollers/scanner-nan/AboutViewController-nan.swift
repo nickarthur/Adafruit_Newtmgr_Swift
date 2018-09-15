@@ -1,4 +1,10 @@
-
+//
+//  AboutViewController.swift
+//  Bluefruit Connect
+//
+//  Created by Antonio García on 14/02/16.
+//  Copyright © 2016 Adafruit. All rights reserved.
+//
 
 import UIKit
 

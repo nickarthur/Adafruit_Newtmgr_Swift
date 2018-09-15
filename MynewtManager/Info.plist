@@ -26,10 +26,6 @@
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>MynewtManager would like to make data available to connected bluetooth devices while the app is in background</string>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>bluetooth-central</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

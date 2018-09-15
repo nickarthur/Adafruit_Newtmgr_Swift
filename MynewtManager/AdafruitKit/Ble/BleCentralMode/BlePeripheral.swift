@@ -1,10 +1,4 @@
-//
-//  BlePeripheral.swift
-//  MynewtManager
-//
-//  Created by Antonio García on 12/09/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
+
 
 import Foundation
 import CoreBluetooth

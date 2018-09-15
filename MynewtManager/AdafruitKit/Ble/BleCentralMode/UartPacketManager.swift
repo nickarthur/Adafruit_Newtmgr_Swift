@@ -1,10 +1,4 @@
-//
-//  UartPacketManager.swift
-//  Bluefruit
-//
-//  Created by Antonio on 01/02/2017.
-//  Copyright © 2017 Adafruit. All rights reserved.
-//
+
 
 import Foundation
 

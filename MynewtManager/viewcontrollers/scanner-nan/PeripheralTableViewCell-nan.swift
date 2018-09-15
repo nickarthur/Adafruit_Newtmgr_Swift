@@ -1,4 +1,10 @@
-
+//
+//  PeripheralTableViewCell.swift
+//  Bluefruit Connect
+//
+//  Created by Antonio García on 29/01/16.
+//  Copyright © 2016 Adafruit. All rights reserved.
+//
 
 import UIKit
 

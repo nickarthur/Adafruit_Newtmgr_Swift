@@ -1,10 +1,4 @@
-//
-//  UartDataManager.swift
-//  Calibration
-//
-//  Created by Antonio García on 20/10/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
+
 
 import Foundation
 

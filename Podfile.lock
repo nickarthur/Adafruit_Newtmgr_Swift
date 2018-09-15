@@ -24,7 +24,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
   CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
-  CocoaMQTT: 014fd1f0793d376b207073ebb5b92a0c8bf8eb2e
+  CocoaMQTT: fddf2b121c5ba3e966268f818e4e582a07e48648
   MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
   SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
   UIColor+Hex: 9fee91bb8e19f17dd40a79ae1e98949a6a84489d

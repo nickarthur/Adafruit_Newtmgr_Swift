@@ -1,10 +1,3 @@
-//
-//  BlePeripheral+Mynewt.swift
-//  MynewtManager
-//
-//  Created by Antonio García on 14/10/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
 
 import Foundation
 import CoreBluetooth
@@ -93,6 +86,9 @@ extension BlePeripheral {
     }
     
     var isNewtReady: Bool {
+        //MARK: - BEGIN NANDEBUG
+        return true
+        //MARK: - END NANDEBUG
         return newtCharacteristic != nil && newtCharacteristicWriteType != nil
     }
     

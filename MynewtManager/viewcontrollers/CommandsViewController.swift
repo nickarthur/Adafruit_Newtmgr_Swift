@@ -1,10 +1,4 @@
-//
-//  CommandsViewController.swift
-//  MynewtManager
-//
-//  Created by Antonio García on 18/10/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
+
 
 import UIKit
 

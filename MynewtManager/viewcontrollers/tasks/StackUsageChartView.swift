@@ -1,10 +1,4 @@
-//
-//  StackUsageChartView.swift
-//  MynewtManager
-//
-//  Created by Antonio on 05/12/2016.
-//  Copyright © 2016 Adafruit. All rights reserved.
-//
+
 
 import UIKit
 
