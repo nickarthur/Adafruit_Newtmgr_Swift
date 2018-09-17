@@ -2,7 +2,7 @@
 import Foundation
 
 #if os(OSX)
-    import AppKit 
+    import AppKit
 #else       // iOS, tvOS
     import UIKit
 #endif
